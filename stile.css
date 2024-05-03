@@ -1,0 +1,13 @@
+h1{color:green;background-color:aqua;margin:auto;text-align: center; font-style: italic;}
+body,html{margin:0;padding:0}
+#editor{border-color: aqua;border-style: groove; width:90%;height:55%;text-align: justify;}
+#nomf{border-color: aqua;border-style: groove}
+button{color:green; background-color: aqua; font-style: italic; border-style: groove;}
+select{color:green;background-color: white;font-style: italic; border-style: groove;}
+label{color:red;font-style: italic;}
+.italic{font-style: italic;}
+.bold{font-weight: bold;}
+.under{text-decoration: underline;}
+.right{text-align: right;}
+.left{text-align: left;}
+.justify{text-align: justify;}

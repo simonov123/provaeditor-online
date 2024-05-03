@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stile.css">
+        <!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+    </head>
+    <body>
+        <script src="provaeditor.js" defer></script>
+        <div class="bibbo"><h1>PROVAEDITOR ONLINE</h1></div>
+        <textarea rows=99999 cols=99999 name="textbox" id="editor" > </textarea><br>
+        <label for="nomf">   Nome File:</label><input type="text" name="inv" id="nomf"><button onclick=salva()>Salva</button><label for="font">   Carattere:</label><select id="font" onchange="fonts()"><option value="SELEZIONA">SELEZIONA</option><option value="ciaone">ciaone</option></select><label for="dims">   Dimensione:</label><select id="dims" onchange="dims()"><option value="SELEZIONA">SELEZIONA</option></select><label for="cols">   Colore:</label><select id="cols" onchange="cols()"><option value="SELEZIONA">SELEZIONA</option></select><label for="backcols">   Sfondo:</label><select id="backcols" onchange="backcols()"><option value="SELEZIONA">SELEZIONA</option></select>
+        <br><img src="italic.png" onclick="doitalic()"><img src="bold.png" onclick="dobold()"><img src="underlined.png" onclick="dounder()"><img src="right.png" onclick="right()"><img src="left.png" onclick="left()"><img src="justify.png" onclick="justify()"><button onclick="share()">CONDIVIDI</button>
+        <script>
+            function right(){
+    document.getElementById("editor").style.textAlign="right";
+
+}
+function left(){
+    document.getElementById("editor").style.textAlign="left";
+
+   
+}
+function justify(){
+    document.getElementById("editor").style.textAlign="center";
+
+
+}
+        </script>
+        <!-- Yandex.RTB R-A-8095813-1 -->
+<script>
+    window.yaContextCb.push(()=>{
+        Ya.Context.AdvManager.render({
+            "blockId": "R-A-8095813-1",
+            "type": "floorAd",
+            "platform": "desktop"
+        })
+    })
+    </script>
+        </body>
+        </html>
